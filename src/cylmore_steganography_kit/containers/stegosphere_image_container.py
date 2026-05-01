@@ -1,4 +1,4 @@
-from ...contracts.encrypt import ICanSaving
+from cylmore_steganography_kit.src.cylmore_steganography_kit.encrypt import ICanSaving
 
 
 class StegosphereImageContainer(ICanSaving):

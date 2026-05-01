@@ -1,8 +1,9 @@
-from ..contracts.encrypt import IFileMaskingNode, ICanSaving
 from stegosphere import image, binary_to_data, data_to_binary
 from stegosphere.embeddings import LSB
 
-from .containers.stegosphere_image_container import StegosphereImageContainer
+from cylmore_steganography_kit.src.cylmore_steganography_kit.containers.stegosphere_image_container import \
+    StegosphereImageContainer
+from cylmore_steganography_kit.src.cylmore_steganography_kit.encrypt import IFileMaskingNode, ICanSaving
 
 
 class LsbStegosphereMasking(IFileMaskingNode):

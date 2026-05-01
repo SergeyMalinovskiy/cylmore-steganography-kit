@@ -1,6 +1,6 @@
 from stegano import lsb
 
-from ..contracts.encrypt import IFileMaskingNode, ICanSaving
+from cylmore_steganography_kit.src.cylmore_steganography_kit.encrypt import IFileMaskingNode, ICanSaving
 
 
 class LsbSteganoMasking(IFileMaskingNode):

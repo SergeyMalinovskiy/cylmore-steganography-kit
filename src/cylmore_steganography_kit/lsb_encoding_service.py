@@ -2,7 +2,8 @@ import hashlib
 
 from simple_encryptor import Encryptor
 
-from contracts.encrypt import DataType, ICanHideDataToCarrier, ICanExtractDataFromCarrier, IFileMaskingNode
+from cylmore_steganography_kit.src.cylmore_steganography_kit.encrypt import ICanHideDataToCarrier, \
+    ICanExtractDataFromCarrier, IFileMaskingNode, DataType
 
 
 class LsbEncodingService(ICanHideDataToCarrier, ICanExtractDataFromCarrier):
